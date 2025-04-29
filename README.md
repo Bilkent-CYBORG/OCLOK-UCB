@@ -2,7 +2,7 @@
 
 # Contextual Combinatorial Volatile Bandits via Gaussian Processes
 
-This repository is the official implementation of Contextual Combinatorial Volatile Bandits via Gaussian Processes, submitted to Machine Learning.
+This repository is the official implementation of Contextual Combinatorial Volatile Bandits via Gaussian Processes.
 ![Illustration of our algorithm called O'CLOCK-UCB.](https://am3pap005files.storage.live.com/y4mhr7YuNEW5H7WHwwDKXon9asOz6h7FH3ptlUg_DNAxmXnw9SA84fGhlbwtkGpTjOpbVFCJl8PpHE5JfA7kUs4MyFZtf7Fwe2JavetySkUID6DyXij1vW6xOEdsPN6AfKlsCugPNwiRWdJRNIPZX5UBgskUwRFzxU6vXF4Ktnpn9E1g3iUGMVOOyXm45IjYwo3fdHYQcBkVclnow0hLlXueA/algo_illustration.png?psid=1&width=1483&height=639)
 
 ## Requirements
