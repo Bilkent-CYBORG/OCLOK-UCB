@@ -1,8 +1,8 @@
 
 
-# Contextual Combinatorial Volatile Bandits via Gaussian Processes
+# Contextual Combinatorial Bandits With Changing Action Sets Via Gaussian Processes
 
-This repository is the official implementation of Contextual Combinatorial Volatile Bandits via Gaussian Processes, submitted to Machine Learning.
+This repository is the official implementation of Contextual Combinatorial Bandits With Changing Action Sets Via Gaussian Processes, submitted to Machine Learning.
 ![Illustration of our algorithm called O'CLOCK-UCB.](https://am3pap005files.storage.live.com/y4mhr7YuNEW5H7WHwwDKXon9asOz6h7FH3ptlUg_DNAxmXnw9SA84fGhlbwtkGpTjOpbVFCJl8PpHE5JfA7kUs4MyFZtf7Fwe2JavetySkUID6DyXij1vW6xOEdsPN6AfKlsCugPNwiRWdJRNIPZX5UBgskUwRFzxU6vXF4Ktnpn9E1g3iUGMVOOyXm45IjYwo3fdHYQcBkVclnow0hLlXueA/algo_illustration.png?psid=1&width=1483&height=639)
 
 ## Requirements
@@ -53,5 +53,5 @@ We use the Wolfram Engine to learn the distribution of the TKY dataset's locatio
 A zip file of the pickled DataFrames used for the varying arm codependence simulation (Simulation III) can be downloaded [here](https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdjctellURkxybzBycnhhcVgtY2dDYlRfb1BOdHc_ZT1OUDA3Nlg/root/content). Make sure to extract all of the five files, each corresponding to a different kernel lengthscale, and place them in the root directory where main.py is.
 
 ## Results
-Our algorithm beats the current combinatorial contextual volatile multi-armed bandit (CCV-MAB) algorithm, [ACC-UCB](http://proceedings.mlr.press/v108/nika20a.html). The figure below shows the time-averaged reward of the sparse version of our algorithm (SO'CLOK_UCB) and ACC-UCB on a movie-recommendation simulation (Simulation I) using the [MovieLens dataset](https://grouplens.org/datasets/movielens/). Notice that even with just 2 inducing points, we manage to outperform ACC-UCB. See Section 5 of the paper for a detailed explanation of the setup and in-depth analysis.
+Our algorithm beats the s.o.t.a contextual combinatorial multi-armed bandits with changing action sets (C3-MAB) algorithm, [ACC-UCB](http://proceedings.mlr.press/v108/nika20a.html). The figure below shows the time-averaged reward of the sparse version of our algorithm (SO'CLOK_UCB) and ACC-UCB on a movie-recommendation simulation (Simulation I) using the [MovieLens dataset](https://grouplens.org/datasets/movielens/). Notice that even with just 2 inducing points, we manage to outperform ACC-UCB. See Section 5 of the paper for a detailed explanation of the setup and in-depth analysis.
 ![Main results figure](https://am3pap005files.storage.live.com/y4mLDE9PD4XurcEUSR9hph9xx2m7j5Ch72nKYimhRNvay-lqnXbvUOQQMMMZtnxeaYX851sOIzyhRyVUCqf9wDruGSk_NVEb8ZbwDrKCdrRBe3Xk2HjtoNPtMrsuTlXD_y8kOozXr4HRXGU9L33OMyTt1gUgOdy5sPmBJtlO_y_jIPlA32dZT-cqVgkNzmBARqQ?width=1192&height=715&cropmode=none)
