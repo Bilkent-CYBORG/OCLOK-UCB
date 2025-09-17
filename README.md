@@ -3,7 +3,6 @@
 # Contextual Combinatorial Bandits With Changing Action Sets Via Gaussian Processes
 
 This repository is the official implementation of Contextual Combinatorial Bandits With Changing Action Sets Via Gaussian Processes.
-![Illustration of our algorithm called O'CLOCK-UCB.](https://am3pap005files.storage.live.com/y4mhr7YuNEW5H7WHwwDKXon9asOz6h7FH3ptlUg_DNAxmXnw9SA84fGhlbwtkGpTjOpbVFCJl8PpHE5JfA7kUs4MyFZtf7Fwe2JavetySkUID6DyXij1vW6xOEdsPN6AfKlsCugPNwiRWdJRNIPZX5UBgskUwRFzxU6vXF4Ktnpn9E1g3iUGMVOOyXm45IjYwo3fdHYQcBkVclnow0hLlXueA/algo_illustration.png?psid=1&width=1483&height=639)
 
 ## Requirements
 
@@ -54,4 +53,3 @@ A zip file of the pickled DataFrames used for the varying arm codependence simul
 
 ## Results
 Our algorithm beats the current s.o.t.a contextual combinatorial multi-armed bandits with changing action sets (C3-MAB) algorithm, [ACC-UCB](http://proceedings.mlr.press/v108/nika20a.html). The figure below shows the time-averaged reward of the sparse version of our algorithm (SO'CLOK_UCB) and ACC-UCB on a movie-recommendation simulation (Simulation I) using the [MovieLens dataset](https://grouplens.org/datasets/movielens/). Notice that even with just 2 inducing points, we manage to outperform ACC-UCB. See Section 5 of the paper for a detailed explanation of the setup and in-depth analysis.
-![Main results figure](https://am3pap005files.storage.live.com/y4mLDE9PD4XurcEUSR9hph9xx2m7j5Ch72nKYimhRNvay-lqnXbvUOQQMMMZtnxeaYX851sOIzyhRyVUCqf9wDruGSk_NVEb8ZbwDrKCdrRBe3Xk2HjtoNPtMrsuTlXD_y8kOozXr4HRXGU9L33OMyTt1gUgOdy5sPmBJtlO_y_jIPlA32dZT-cqVgkNzmBARqQ?width=1192&height=715&cropmode=none)
